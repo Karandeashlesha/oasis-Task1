@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-section{
+    min-height: 100vh;
+    background: url("https://images.unsplash.com/photo-1606755962773-d324e0a13086?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGJ1cmdlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+}
+:root{
+    --text:2rem;
+    --head:calc(1rem +5vw)
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:10vh;
+    padding: 0rem 1rem;
+    color:rgb(81, 24, 214);
+
+}
+body{
+    font-family: "poppins",sans-serif;
+    
+
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li
+{
+    display: inline-block;
+    margin-left: 3rem;
+    font-size:var(--text);
+}
+.navbar ul li a{
+    text-decoration: underline;
+    color:rgb(84, 16, 194);
+}
+.hero-text{
+    color:black;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero-text a{
+    font-size: 30px;
+    color:black;
+    font-family:bold;
+}
+.hero-text h2
+{
+    font-size:100px;
+    font-family: bold;
+    text-decoration: (1opx red);
+}
+.hero-text p{
+    font-size:80px;
+    font-family: bold;
+    color:rgba(6, 7, 5, 0.76);
+}
